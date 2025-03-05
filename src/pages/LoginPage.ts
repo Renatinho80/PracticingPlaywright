@@ -11,6 +11,10 @@ export class LoginPage {
     await this.page.click(this.elements.loginButton);
   }
 
+  async loginSuccess() {
+    await this.page.isVisible(this.elements.loginSuccess);
+  }
+
   async loading() {
     await this.page.waitForSelector(this.elements.loginButton, {
       state: 'detached',
