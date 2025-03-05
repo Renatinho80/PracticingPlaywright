@@ -1,0 +1,14 @@
+practicingplaywright/
+├── src/
+│   ├── pages/          # Page Object Models
+│   ├── tests/          # Testes organizados
+│   ├── fixtures/       # Dados de teste
+│   ├── elements/       # Localização dos elementos do HTML
+│   ├── helpers/        # Funções auxiliares
+│   ├── utils/          # Utilitários como formatadores
+├── .env                # Variáveis de ambiente
+├── playwright.config.ts
+├── tsconfig.json
+├── package.json
+├── .eslintrc.json
+├── .prettierrc
